@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eileen's Blog</title>
+</head>
+
+html {
+    background: #e3e3e3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #450a67;
+    border-bottom: 10px solid #450a67;
+    background: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+table, tr, td {
+    border: 1px solid;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+#blog {
+    border-top: 1px dotted #ccc;
+}
+
+.blog-post {
+    border-bottom: 1px dotted #ccc;
+}
