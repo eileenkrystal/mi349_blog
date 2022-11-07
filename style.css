@@ -17,8 +17,8 @@ body {
     margin: 40px;
     padding: 40px;
     color: #242424;
-    border-top: 10px solid #450a67;
-    border-bottom: 10px solid #450a67;
+    border-top: 10px solid #3e0f5a;
+    border-bottom: 10px solid #3e0f5a;
     background: #fff;
 }
 
@@ -55,5 +55,35 @@ p {
 }
 
 .blog-post {
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted rgb(181, 181, 181);
+}
+
+section {
+    background: rgba(202, 202, 202, 0.987);
+    display: flex;
+
+}
+
+article {
+    background: rgba(255, 255, 255, 0.773);
+    padding: 20px;
+    margin: 20px;
+}
+
+article:nth-of-type(1) {
+    flex: 1;
+}
+
+article:nth-of-type(2) {
+    flex: 1;
+}
+
+.sticky {
+    background: #ccc;
+    position: sticky;
+    top: 0;
+}
+
+img {
+    float: right;
 }
