@@ -44,6 +44,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    top: 0;
+    position: sticky;
+    
 }
 
 p {
@@ -85,5 +88,11 @@ article:nth-of-type(2) {
 }
 
 img {
-    float: right;
+    float: center;
+}
+
+@media (max-width: 400px) {
+    body {
+        background-color: #523b5f9b;
+    }
 }
